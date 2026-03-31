@@ -1,0 +1,219 @@
+/* GENERAL */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  margin: 0;
+}
+
+/* CONTAINER */
+.container {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+}
+
+/* TITLE */
+h1 {
+  text-align: center;
+  color: white;
+}
+
+/* CARDS */
+.card {
+  background: white;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+/* INPUTS */
+input {
+  margin: 5px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* BUTTONS */
+button {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  background: #667eea;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #5a67d8;
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th {
+  background: #667eea;
+  color: white;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 6px;
+  text-align: center;
+}
+
+/* PDF REPORT */
+.pdf {
+  background: white;
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+  font-family: "Times New Roman";
+  color: #333;
+}
+
+.pdf h2 {
+  color: #4CAF50;
+  text-align: center;
+}
+
+.pdf h3 {
+  text-align: center;
+  color: #444;
+}
+
+.pdf h4 {
+  color: #667eea;
+}
+
+/* DOWNLOAD BUTTONS */
+.download-btns {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.download-btns button {
+  background: #4CAF50;
+}
+
+.download-btns button:hover {
+  background: #388e3c;
+}
+
+/* LOGIN PAGE */
+.login-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
+}
+
+.login-box h2 {
+  color: #667eea;
+}
+
+.login-box input {
+  margin: 10px;
+  padding: 10px;
+  width: 80%;
+}
+
+.login-box button {
+  width: 85%;
+  background: #667eea;
+}
+/* HEADER */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  color: white;
+  font-size: 32px;
+}
+
+.subtitle {
+  color: #e0e0e0;
+  font-size: 16px;
+}
+
+/* ACTION BAR */
+.action-bar {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* BUTTON STYLES */
+.btn {
+  padding: 10px 15px;
+  margin: 8px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.save {
+  background: #4CAF50;
+  color: white;
+}
+
+.save:hover {
+  background: #388e3c;
+}
+
+.generate {
+  background: #2196F3;
+  color: white;
+}
+
+.generate:hover {
+  background: #1976D2;
+}
+
+.print {
+  background: #FF9800;
+  color: white;
+}
+
+.print:hover {
+  background: #F57C00;
+}
+
+/* CARD TITLE */
+.card h3 {
+  color: #667eea;
+}
+
+.week-input {
+  text-align: center;
+  margin: 15px;
+  color: white;
+}
+
+.week-input input {
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  width: 250px;
+}

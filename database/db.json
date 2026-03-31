@@ -1,0 +1,81 @@
+{
+  "general": [
+    {
+      "Description": "Dr.M.Kishore"
+    }
+  ],
+  "faculty_join": [
+    {
+      "Name": "Dr.M.Kishore",
+      "Dept": "CSE-AI&Ml",
+      "Designation": "Assistant Proffesor",
+      "Date": ""
+    },
+    {
+      "Name": "Dr.M.Kishore",
+      "Dept": "CSE-AI&Ml",
+      "Designation": "Assistant Proffesor",
+      "Date": "20.03.25"
+    }
+  ],
+  "faculty_ach": [
+    {
+      "Name": "Dr.M.Kishore",
+      "Details": "NPTEL-JavaScript",
+      "Date": "20.03.26"
+    }
+  ],
+  "student_ach": [
+    {
+      "Name": "Ms.M.Madhuri",
+      "Roll": "22wh1a6622",
+      "Achievement": "GATE RANK- AIR 22345"
+    }
+  ],
+  "dept_ach": [],
+  "faculty_events": [],
+  "student_events": [
+    {
+      "Event": "BuildSphere",
+      "Coordinator": "Ms.V.Asha Jyothi",
+      "Students": "30",
+      "Date": "31.03.26"
+    }
+  ],
+  "nontech_events": [
+    {
+      "Event": "Thandav",
+      "Coordinator": "Ms.K.Bashitha",
+      "Students": "10",
+      "Date": ""
+    }
+  ],
+  "visits": [],
+  "hackathons": [
+    {
+      "Event": "AlgoHack",
+      "Mentor": "Mr.B.Kishore",
+      "Students": "",
+      "Date": ""
+    }
+  ],
+  "fdp": [],
+  "faculty_visits": [],
+  "patents": [],
+  "vedic": [],
+  "placements": [
+    {
+      "Company": "Optum",
+      "Students": "10",
+      "Package": "20LPA"
+    }
+  ],
+  "mou": [],
+  "skill": [
+    {
+      "Program": "BFSI",
+      "Coordinator": "Ms.B.Shanmukha Priya",
+      "Students": "200"
+    }
+  ]
+}

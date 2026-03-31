@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weekly Report</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <!-- HEADER -->
+  <div class="header">
+    <h1>📊 Weekly Report Dashboard</h1>
+    <p class="subtitle">Collaborative Productivity System</p>
+  </div>
+
+  <div class="week-input">
+  <label>📅 Select Week:</label>
+  <input type="date" id="startDate">
+</div>
+
+  <!-- ACTION BAR -->
+  <div class="action-bar">
+    <button class="btn save" onclick="saveAll()">💾 Save Data</button>
+    <button class="btn generate" onclick="saveWeek(); openReport()">
+  📄 Generate Report
+</button>
+    <button class="btn print" onclick="printReport()">⬇ Download PDF</button>
+  </div>
+
+  <!-- SECTIONS -->
+  <div id="sections"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

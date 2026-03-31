@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-body">
+
+<div class="login-box">
+  <h2>Faculty Registration</h2>
+
+  <input id="newUser" placeholder="Username"><br>
+  <input id="newPass" type="password" placeholder="Password"><br>
+  <input id="confirmPass" type="password" placeholder="Re-enter Password"><br>
+
+  <button onclick="signup()">Register</button>
+
+  <p>Already have account? <a href="index.html">Login</a></p>
+</div>
+
+<script>
+function signup() {
+  let u = document.getElementById("newUser").value;
+  let p = document.getElementById("newPass").value;
+  let cp = document.getElementById("confirmPass").value;
+
+  if (p !== cp) {
+    alert("Passwords do not match!");
+    return;
+  }
+
+  let users = JSON.parse(localStorage.getItem("users")) || [];
+
+  users.push({ user: u, pass: p });
+
+  localStorage.setItem("users", JSON.stringify(users));
+
+  alert("Registered successfully!");
+  window.location = "index.html";
+}
+</script>
+
+</body>
+</html>
