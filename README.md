@@ -1,7 +1,11 @@
-# BuildSphere
+# Project Title
 
-BuildSphere is a full-stack weekly reporting system for academic departments.  
-It helps faculty teams capture weekly activities in structured sections and generate a printable/downloadable report.
+Collaborative Weekly Report Management System. 
+
+# Problem Statement
+Educational Institutions prepare weekly reports of Departments manually by collecting data from multiple faculty
+members across 17 structured sections. This leads to delays, inconsistencies, missed
+entries, and increased manual effort for coordinators.
 
 ## Features
 
